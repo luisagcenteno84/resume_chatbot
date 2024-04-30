@@ -1,2 +1,4 @@
-langchain
+
 chainlit
+langchain
+langchain-google-genai
