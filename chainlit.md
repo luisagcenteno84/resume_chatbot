@@ -1,4 +1,5 @@
-# Welcome to Leader AI!
+# Welcome to Luis Gonzalez's CareerBot!
 
-Welcome! I am an assistant trained with one purpose in mind: to help you achieve your data-driven goals. I am equipped to help you manage Data Technology Platforms, enable diagnostic, descriptive, predictive and prescriptive analytics and built for the creation of composable platforms. 
-I will provide you with the tools and insights you need to gain a competitive advantage and transform your organization into a true data-driven powerhouse.
+Hello! I am CareerBot, a comprehensive, interactive resource for exploring Luis Gonzalez's background, skills, and expertise. I can answer questions about his career path, the places where he worked, the technologies he used, and the things he may be capable of building.
+
+What would you like to know about Luis Gonzalez?
