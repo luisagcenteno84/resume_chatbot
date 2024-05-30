@@ -13,12 +13,12 @@ from langchain_core.runnables import RunnablePassthrough
 
 
 def load_vector():
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", max_batch_size=100)
     
     loader = PyPDFLoader(file_path="src/resume.pdf")
     data = loader.load()
 
-    text_splitters = RecursiveCharacterTextSplitter(chunk_size=250,chunk_overlap=50)
+    text_splitters = RecursiveCharacterTextSplitter(chunk_size=10000,chunk_overlap=50)
     all_splits = text_splitters.split_documents(data)
     
     vector_store = FAISS.from_documents(all_splits, embeddings)
